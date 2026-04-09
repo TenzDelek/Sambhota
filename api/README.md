@@ -36,7 +36,7 @@ Follow these steps to set up the project on your local machine:
 
 1. Start the FastAPI development server:
    ```sh
-   poetry run uvicorn api.app:api --reload
+   poetry run uvicorn core.app:api --reload
    ```
 
 The application will be available at `http://127.0.0.1:8000/`.
